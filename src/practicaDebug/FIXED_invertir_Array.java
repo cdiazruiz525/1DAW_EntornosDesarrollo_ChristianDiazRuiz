@@ -1,6 +1,6 @@
 package practicaDebug;
 
-public class Ejercicio01_practicaDebug {
+public class FIXED_invertir_Array {
 
 	public static void main(String[] args) {
 		

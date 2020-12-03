@@ -1,6 +1,6 @@
 package practicaDebug;
 
-public class invertir_Array {
+public class ORIGINAL_invertir_Array {
 
 	public static void main(String[] args) {
 

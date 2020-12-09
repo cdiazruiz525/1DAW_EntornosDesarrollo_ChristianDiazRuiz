@@ -9,7 +9,7 @@ public class ORIGINAL_invertir_Array {
 		int aux=0;
 		// imprimimos array para comprobar
 		int longitud=array.length;
-		for (int i = 0; i<=longitud; i++)
+		for (int i = 0; i<longitud; i++)
 		 System.out.print(array[i] + " ");
 		// invertimos array recorriéndolo hasta la mitad e intercambiando valores
 		for(int i=0;i<=longitud/2; i++){

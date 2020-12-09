@@ -9,22 +9,21 @@ public class ORIGINAL_invertir_Array {
 		int aux=0;
 		// imprimimos array para comprobar
 		int longitud=array.length;
-		for (int i = 0; i<longitud; i++)
-		 System.out.print(array[i] + " ");
+		for (int i = 0; i<=longitud; i++)
+			System.out.print(array[i] + " ");
 		// invertimos array recorriéndolo hasta la mitad e intercambiando valores
 		for(int i=0;i<=longitud/2; i++){
-		//vamos guardando la posición que vamos a intercambiar desde el final
-		 aux = array[longitud-i];
-		 //como ya tenemos guardada la posición longiutd-i-1, ya podemos guardar en esa posición un valor
-		 array[longitud-i-1] = array[i];
-		 //guardamos en las posiciones iniciales el valor de aux que ya estaba guardado
-		 array[i] = aux;
-		 }
+			//vamos guardando la posición que vamos a intercambiar desde el final
+			aux = array[longitud-i];
+			//como ya tenemos guardada la posición longiutd-i-1, ya podemos guardar en esa posición un valor
+			array[longitud-i-1] = array[i];
+			//guardamos en las posiciones iniciales el valor de aux que ya estaba guardado
+			array[i] = aux;
+		}
 		// comprobamos que se ha invertido el array
 		System.out.println();
-		
 		for (int i = 0; i < longitud; i++)
-		System.out.print(array[i] + " ");
+			System.out.print(array[i] + " ");
 
 	}
 

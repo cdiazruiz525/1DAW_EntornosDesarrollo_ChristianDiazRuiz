@@ -24,9 +24,9 @@ class MenorMayor_PrimoTest {
 		//Creo las variables
 		int num1 = -10; 
 		int num2 = 30;
-		int num3 = 90;
+		int num3 = 15;
 		
-		int esperado[] = {-10, 90}; // Creo el array con el resultado esperado
+		int esperado[] = {-10, 30}; // Creo el array con el resultado esperado
 		
 		int array[] = MenorMayor_Primo.menorMayor(num1, num2, num3); // Llamo a el metodo
 		

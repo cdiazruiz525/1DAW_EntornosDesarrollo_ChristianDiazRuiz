@@ -1,4 +1,4 @@
-package practicaWindowsBuilder;
+package practicaObligatoriaUnidad2;
 
 import java.awt.EventQueue;
 
@@ -21,7 +21,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.event.ActionEvent;
 
-public class Calculadora {
+public class EjercicioA_Calculadora {
 
 	private JFrame frame;
 	private JTextField jtfNumero1;
@@ -43,7 +43,7 @@ public class Calculadora {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Calculadora window = new Calculadora();
+					EjercicioA_Calculadora window = new EjercicioA_Calculadora();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -55,7 +55,7 @@ public class Calculadora {
 	/**
 	 * Create the application.
 	 */
-	public Calculadora() {
+	public EjercicioA_Calculadora() {
 		initialize();
 	}
 

@@ -21,7 +21,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.event.ActionEvent;
 
-public class EjercicioA_Calculadora {
+public class Ejercicio01_Calculadora {
 
 	private JFrame frame;
 	private JTextField jtfNumero1;
@@ -43,7 +43,7 @@ public class EjercicioA_Calculadora {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					EjercicioA_Calculadora window = new EjercicioA_Calculadora();
+					Ejercicio01_Calculadora window = new Ejercicio01_Calculadora();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -55,7 +55,7 @@ public class EjercicioA_Calculadora {
 	/**
 	 * Create the application.
 	 */
-	public EjercicioA_Calculadora() {
+	public Ejercicio01_Calculadora() {
 		initialize();
 	}
 
